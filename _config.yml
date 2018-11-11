@@ -1,4 +1,4 @@
 title: Ethereal
-
+source: docs/
 plugins: 
   - jekyll-feed
