@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type=text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+  <title> [EDITOR] {{ page.title }} - {{ site.title }}</title>
+  <link type="text/css" href="/assets/style.css" rel="stylesheet" />
+  <script type="text/javascript" src="/assets/main.js" async="true" defer="true"></script>
+</head>
+
+<body>
+
+  <header> 
+    <nav>
+      {% include nav.html %}
+    <nav>
+  </header>
+  
+  <main>
+    {{ page.content }}
+  </main>
+
+  <footer>
+    {% include footer.html %}
+  </footer>
+  
+  
+</body>
+</html>
