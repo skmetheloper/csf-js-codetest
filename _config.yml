@@ -1,0 +1,9 @@
+title: Ethereal
+
+encoding: utf-8
+timezone: Asia/Rangoon
+
+source: docs/
+
+plugins: 
+  - jekyll-feed
